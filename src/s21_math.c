@@ -180,7 +180,7 @@ void facorial_step(long double* cur_fact, int* step) {
     (*cur_fact) *= *step;
   }
 }
-// Тангенс (КРАЕВЫЕ!)
+// Тангенс
 long double s21_tan(double x) {
   long double res = 0;
   if (check_value(&res, x)) {
@@ -218,7 +218,7 @@ long double s21_asin(double x) {
   }
   return res;
 }
-// Арккосинус через ряд Тейлора (Посмотреть еще края)
+// Арккосинус через ряд Тейлора
 long double s21_acos(double x) {
   long double res = 0;
   if (check_value(&res, x)) {
